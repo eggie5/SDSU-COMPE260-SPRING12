@@ -14,7 +14,7 @@ int main (int argc, const char * argv[])
 
     int l;
     int r;
-    char opperand[40];
+    std::string opperand;
     std::cout << "Please enter first argument ";
     std::cin >> l;
     std::cout << "Please enter second argument ";
@@ -22,23 +22,23 @@ int main (int argc, const char * argv[])
     std::cout << "Please enter opperand ";
     std::cin>>opperand;
     
-    if(strcmp(opperand, "+"))
+    if(opperand.compare("+")==0)
     {
         std::cout << l+r;
     }
-    else if(strcmp(opperand, "-"))
+    else if(opperand.compare("-")==0)
     {
         std::cout << l-r;
     }
-    else if(strcmp(opperand, "*"))
+    else if(opperand.compare("*")==0)
     {
         std::cout << l*r;
     }
-    else if(strcmp(opperand, "/"))
+    else if(opperand.compare("/")==0)
     {
         std::cout << l/r;
     }
-    else if(strcmp(opperand, "%%"))
+    else if(opperand.compare("%%")==0)
     {
         std::cout << l%r;
     }
