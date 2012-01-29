@@ -38,7 +38,7 @@ int main (int argc, const char * argv[])
     {
         std::cout << l/r;
     }
-    else if(opperand.compare("%%")==0)
+    else if(opperand.compare("%")==0)
     {
         std::cout << l%r;
     }
