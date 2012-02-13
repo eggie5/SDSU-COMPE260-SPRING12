@@ -26,3 +26,8 @@ int main (int argc, const char * argv[])
     return 0;
 }
 
+//this method uses a form equation of the magic square algorithm. The equation takes 3 arguments i, j and n which
+//are row and coloum index and magic square order respectively. Although the code will have O(n^2) growth rate
+//in reality it will be closer to O(1) since it is known that n will be small for all cases and that the only code
+//is a simple math equation.
+
