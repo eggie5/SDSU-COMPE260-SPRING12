@@ -32,7 +32,7 @@
 //
 
 #include <iostream>
-#include <math.h>
+#include <math.h> //need for floor function
 
 using namespace std;
 
