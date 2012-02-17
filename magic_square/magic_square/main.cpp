@@ -60,7 +60,7 @@ int main (int argc, const char * argv[])
  ====================
 Discussion Section:
  
-This method uses a form equation of the magic square algorithm. 
+This method uses a colsed form equation of the magic square algorithm. 
 The equation takes 3 arguments i, j and n which are row and coloum
 index and magic square order respectively. Although the code 
 will have O(n^2) growth rate in reality it will be closer to O(1) 
