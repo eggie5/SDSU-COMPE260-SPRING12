@@ -32,7 +32,7 @@
 //
 
 #include <iostream>
-#include <math.h>
+#include <math.h> //need for floor function
 
 using namespace std;
 
@@ -70,12 +70,14 @@ int main (int argc, const char * argv[])
  ====================
 Discussion Section:
  
-This method uses a form equation of the magic square algorithm. 
-The equation takes 3 arguments i, j and n which are row and coloum
+This method uses a closed form equation of the magic square algorithm. 
+The equation takes 3 arguments i, j and n which are row and column
 index and magic square order respectively. Although the code 
-will have O(n^2) growth rate in reality it will be closer to O(1) 
-since it is known that n will be small for all cases and that the only code
-is a simple math equation.
+will have O(n^2) growth rate in reality it will be closer to the lower bound
+of O(n^2) and demonstrate o(1) runtime. Since it is known that n will be small
+for all cases and that the only code is a simple math equation. This method
+is far superiour to the instructors provided alorithm as it is simpler code
+, less code and has a faster runtime.
  
 =========================
 */
