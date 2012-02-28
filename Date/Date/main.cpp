@@ -13,7 +13,8 @@ int main (int argc, const char * argv[])
 {
 
     Date d;
-    cout << d.getDay() << d.getMonth() << d.getYear() <<endl;
+    cout << d << endl;
+    d.printDate();
     return 0;
 }
 

@@ -7,11 +7,12 @@
 //
 
 #include <iostream>
+#include <iomanip>
 #include "Date.h"
 
 using namespace std;
 
-Date::Date() : day(12), month(1), year(2012)
+Date::Date() : day(1), month(1), year(2000)
 {
 }
 
@@ -44,3 +45,43 @@ unsigned Date::getYear() const
 {
     return this->year;
 }
+
+void Date::setDay(unsigned day)
+{
+    this->day=day;
+}
+
+void Date::setMonth(unsigned month)
+{
+    this->month=month;
+}
+void Date::setYear(unsigned year)
+{
+    this->year=year;
+}
+
+void Date::incrementMonth(Date & d, int delta)
+{
+    
+}
+
+ostream & operator<<(ostream & out, const Date & d)
+{
+    d.display(out);
+    return out;
+}
+
+void Date::display(ostream & out) const
+{
+    out <<  setfill ('0') << setw (2)<< this->month << "-" 
+        <<setfill ('0') << setw (2)<<this->day <<"-"
+        <<this->year ;
+}
+
+void Date::printDate() const
+{
+    cout <<  setfill ('0') << setw (2)<< this->month << "-" 
+    <<setfill ('0') << setw (2)<<this->day <<"-"
+    <<this->year ;
+}
+
