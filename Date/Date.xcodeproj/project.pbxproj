@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACF9035614FC928200678FAB /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF9035514FC928200678FAB /* Time.cpp */; };
 		ACFAEA7614F8557900570073 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFAEA7514F8557900570073 /* main.cpp */; };
 		ACFAEA7814F8557900570073 /* Date.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFAEA7714F8557900570073 /* Date.1 */; };
 		ACFAEA8514F8559300570073 /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFAEA8414F8559300570073 /* Date.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ACF9035514FC928200678FAB /* Time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		ACF9035814FC92B100678FAB /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
 		ACFAEA7114F8557900570073 /* Date */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Date; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFAEA7514F8557900570073 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACFAEA7714F8557900570073 /* Date.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Date.1; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		ACFAEA7414F8557900570073 /* Date */ = {
 			isa = PBXGroup;
 			children = (
+				ACF9035814FC92B100678FAB /* Time.h */,
+				ACF9035514FC928200678FAB /* Time.cpp */,
 				ACFAEA7514F8557900570073 /* main.cpp */,
 				ACFAEA7714F8557900570073 /* Date.1 */,
 				ACFAEA8214F8558900570073 /* Date.h */,
@@ -123,6 +128,7 @@
 			files = (
 				ACFAEA7614F8557900570073 /* main.cpp in Sources */,
 				ACFAEA8514F8559300570073 /* Date.cpp in Sources */,
+				ACF9035614FC928200678FAB /* Time.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

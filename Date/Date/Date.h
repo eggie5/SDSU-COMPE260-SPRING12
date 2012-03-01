@@ -16,10 +16,12 @@ class Date
 {
 private:
     unsigned day, month, year;
+    void setDate(unsigned day, unsigned month, unsigned year);
     
 public:
     Date();
     Date(unsigned day, unsigned month, unsigned year);
+    ~Date();
     
     unsigned getDay() const;
     unsigned getMonth() const;
@@ -28,7 +30,7 @@ public:
     void setDay(unsigned day);
     void setMonth(unsigned month);
     void setYear(unsigned year);
-    void setDate();
+    
     
     void incrementMonth(Date &, int);
     
