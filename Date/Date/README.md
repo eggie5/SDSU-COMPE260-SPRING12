@@ -11,6 +11,7 @@ Sample output:
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+```c++
 #include <iostream>
 #include "Date.h"
 using namespace std;
@@ -40,7 +41,7 @@ int main (int argc, const char * argv[])
     cout << *d << endl;
     return 0;
 }
-
+```
 
 
 01-01-2000 // default constructor
