@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC665A5B150C3F2300853BE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC665A5A150C3F2300853BE8 /* main.cpp */; };
+		AC665A5D150C3F2300853BE8 /* lab4_Staque.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC665A5C150C3F2300853BE8 /* lab4_Staque.1 */; };
+		AC665A6D150C590B00853BE8 /* LStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC665A6B150C590B00853BE8 /* LStack.cpp */; };
+		AC665A70150C5A1800853BE8 /* Staque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC665A6F150C5A1800853BE8 /* Staque.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC665A54150C3F2300853BE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AC665A5D150C3F2300853BE8 /* lab4_Staque.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC665A56150C3F2300853BE8 /* lab4-Staque */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lab4-Staque"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC665A5A150C3F2300853BE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC665A5C150C3F2300853BE8 /* lab4_Staque.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lab4_Staque.1; sourceTree = "<group>"; };
+		AC665A6B150C590B00853BE8 /* LStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LStack.cpp; sourceTree = "<group>"; };
+		AC665A6C150C590B00853BE8 /* LStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LStack.h; sourceTree = "<group>"; };
+		AC665A6E150C5A1800853BE8 /* Staque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Staque.h; sourceTree = "<group>"; };
+		AC665A6F150C5A1800853BE8 /* Staque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Staque.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC665A53150C3F2300853BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC665A4B150C3F2300853BE8 = {
+			isa = PBXGroup;
+			children = (
+				AC665A59150C3F2300853BE8 /* lab4-Staque */,
+				AC665A57150C3F2300853BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC665A57150C3F2300853BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC665A56150C3F2300853BE8 /* lab4-Staque */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC665A59150C3F2300853BE8 /* lab4-Staque */ = {
+			isa = PBXGroup;
+			children = (
+				AC665A6B150C590B00853BE8 /* LStack.cpp */,
+				AC665A6C150C590B00853BE8 /* LStack.h */,
+				AC665A5A150C3F2300853BE8 /* main.cpp */,
+				AC665A5C150C3F2300853BE8 /* lab4_Staque.1 */,
+				AC665A6E150C5A1800853BE8 /* Staque.h */,
+				AC665A6F150C5A1800853BE8 /* Staque.cpp */,
+			);
+			path = "lab4-Staque";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC665A55150C3F2300853BE8 /* lab4-Staque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC665A60150C3F2300853BE8 /* Build configuration list for PBXNativeTarget "lab4-Staque" */;
+			buildPhases = (
+				AC665A52150C3F2300853BE8 /* Sources */,
+				AC665A53150C3F2300853BE8 /* Frameworks */,
+				AC665A54150C3F2300853BE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lab4-Staque";
+			productName = "lab4-Staque";
+			productReference = AC665A56150C3F2300853BE8 /* lab4-Staque */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC665A4D150C3F2300853BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AC665A50150C3F2300853BE8 /* Build configuration list for PBXProject "lab4-Staque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC665A4B150C3F2300853BE8;
+			productRefGroup = AC665A57150C3F2300853BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC665A55150C3F2300853BE8 /* lab4-Staque */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC665A52150C3F2300853BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC665A5B150C3F2300853BE8 /* main.cpp in Sources */,
+				AC665A6D150C590B00853BE8 /* LStack.cpp in Sources */,
+				AC665A70150C5A1800853BE8 /* Staque.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC665A5E150C3F2300853BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC665A5F150C3F2300853BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC665A61150C3F2300853BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC665A62150C3F2300853BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC665A50150C3F2300853BE8 /* Build configuration list for PBXProject "lab4-Staque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC665A5E150C3F2300853BE8 /* Debug */,
+				AC665A5F150C3F2300853BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC665A60150C3F2300853BE8 /* Build configuration list for PBXNativeTarget "lab4-Staque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC665A61150C3F2300853BE8 /* Debug */,
+				AC665A62150C3F2300853BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC665A4D150C3F2300853BE8 /* Project object */;
+}
