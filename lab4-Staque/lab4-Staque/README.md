@@ -44,25 +44,9 @@ int main (int argc, const char * argv[])
 Sample Execution
 
 ```
-8
-6
-4
-2
-1
-3
-9
-
-4
-2
-1
-3
-
-2
-1
-3
-
-2
-1
-
+8642139
+4213
+213
+21
 1
 ```
