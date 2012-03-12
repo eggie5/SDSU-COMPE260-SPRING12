@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "lab4-Staque/LStack.cpp"
-         timestampString = "353135947.359586"
+         timestampString = "353282882.245941"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "187"
-         endingLineNumber = "187">
+         startingLineNumber = "203"
+         endingLineNumber = "203">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -35,11 +35,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "lab4-Staque/LStack.cpp"
-         timestampString = "353135947.359586"
+         timestampString = "353282882.245941"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "188"
-         endingLineNumber = "188">
+         startingLineNumber = "204"
+         endingLineNumber = "204">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -61,11 +61,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "lab4-Staque/main.cpp"
-         timestampString = "353136069.153688"
+         timestampString = "353282739.808347"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "28"
-         endingLineNumber = "28"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
          landmarkName = "main (int argc, const char * argv[])"
          landmarkType = "7">
       </FileBreakpoint>
@@ -75,11 +75,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "lab4-Staque/main.cpp"
-         timestampString = "353136100.754063"
+         timestampString = "353283059.677921"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "38"
-         endingLineNumber = "38"
+         startingLineNumber = "46"
+         endingLineNumber = "46"
          landmarkName = "main (int argc, const char * argv[])"
          landmarkType = "7">
       </FileBreakpoint>
@@ -124,6 +124,62 @@
          endingLineNumber = "24"
          landmarkName = "main (int argc, const char * argv[])"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "lab4-Staque/LStack.cpp"
+         timestampString = "353282387.56209"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
+         landmarkName = "Stack::~Stack()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "lab4-Staque/LStack.cpp"
+         timestampString = "353282475.898402"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "Stack::~Stack()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "lab4-Staque/LStack.cpp"
+         timestampString = "353282549.473085"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "172"
+         endingLineNumber = "172"
+         landmarkName = "Stack::remove()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "lab4-Staque/LStack.cpp"
+         timestampString = "353283027.150974"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "Stack::~Stack()"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

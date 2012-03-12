@@ -99,8 +99,11 @@ void Stack::push(const StackElement & value)
         else
         {
             Stack::Node * newNode= new Stack::Node(value, 0);
+            newNode->previous=tail;
             tail->next=newNode;
+            
             tail=newNode;
+            
         }
     }
     
@@ -157,10 +160,23 @@ void Stack::remove()
 {
    if (!empty())
    {
-      Stack::NodePointer ptr = myTop;
-      myTop = myTop->next;
-      delete ptr;
-        currentSize--;
+       if(is_LIFO)
+       {
+           Stack::NodePointer ptr = myTop;
+           myTop = myTop->next;
+           delete ptr;
+           currentSize--;
+       }
+       else
+       {
+           Stack::NodePointer temp=tail;
+           tail=tail->previous;
+           if(tail!=NULL)
+               tail->next=NULL;
+           delete temp;
+           currentSize--;
+       }
+     
    }   
    else
       cerr << "*** Stack is empty -- can't remove a value ***\n";

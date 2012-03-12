@@ -22,18 +22,22 @@ int main (int argc, const char * argv[])
     stack.push(6);
     stack.push(8);
     stack.push(9);
-    
     cout <<stack<<endl;
     
     stack.evens.remove();
     stack.evens.remove();
     stack.odds.remove();
-    
     cout<<stack<<endl;
     
-
     
+    stack.evens.remove();
+    cout<<stack<<endl;
     
+    stack.odds.remove();
+    cout<<stack<<endl;
+    
+    stack.evens.remove();
+    cout<<stack<<endl;
     
     return 0;
 }

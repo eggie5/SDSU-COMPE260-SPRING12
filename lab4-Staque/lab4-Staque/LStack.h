@@ -108,14 +108,15 @@ int is_LIFO;
     public:
       StackElement data;
       Node * next;
+       Node * previous;
       //--- Node constructor
-      Node(StackElement value, Node * link = 0)
+      Node(StackElement value, Node * link = 0, Node * prev=0)
       /*-------------------------------------------------------------------
         Precondition:  None.
         Postcondition: A Node has been constructed with value in its data 
             part and its next part set to link (default 0).
        -------------------------------------------------------------------*/
-      : data(value), next(link)
+      : data(value), next(link), previous(prev)
       {}
   };
 
