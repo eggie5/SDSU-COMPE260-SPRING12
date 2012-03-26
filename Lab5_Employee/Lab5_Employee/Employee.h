@@ -43,6 +43,8 @@ public:
         return this->salary+(income_for_month*.6);
     }
     
+    virtual void display(ostream & out) const;
+    
     
 protected:
     int salary;
@@ -54,5 +56,18 @@ private:
 
 };
 
+//--- Definition of Employee's display()
+inline void Employee::display(ostream & out) const
+{
+    out << id << ' ' << name << ' '  << ' ' << endl;
+}
+
+inline ostream & operator<<(ostream & out, const Employee & emp)
+{
+    emp.display(out);
+    return out;
+};
 
 #endif
+
+
