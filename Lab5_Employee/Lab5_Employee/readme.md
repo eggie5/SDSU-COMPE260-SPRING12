@@ -1,6 +1,8 @@
 Discussion Section:
 
-asdf
+This lab consists of a simple composition of 3 Classes. First there is the base class Employee and from there we derive 2 child classes: Chef and Waiter. The Base class defines 2 members class and salary which the two child classes inherit. Also the base class exposes a function to calculate the salary for a given employee. For example an owner type gets 15000 base salary + 60% of profit, Chef: 10000 base + 20% profit and a Waiter 3000 base + tips. Each implementation of employee overrides the calculate salary routine via polymorphism.  
+
+In the database implementation a set of 6 Employee types are created and added to a list type Employee. This list is then iterated and the respective paycheck of each employee is outputted for a $6000 profit month.
 
 ```c++
 
