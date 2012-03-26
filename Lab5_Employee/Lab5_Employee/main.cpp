@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 #include "Chef.h"
 #include "Waiter.h"
@@ -38,3 +37,11 @@ int main (int argc, const char * argv[])
     return 0;
 }
 
+//output
+//$ ./a.out 
+//18600
+//11200
+//11200
+//4000
+//4500
+//4700
