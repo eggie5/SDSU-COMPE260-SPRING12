@@ -1,10 +1,4 @@
-//
-//  Chef.h
-//  Lab5_Employee
-//
-//  Created by Alex Egg on 3/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+
 #include "Employee.h"
 
 #ifndef Lab5_Employee_Chef_h
@@ -12,15 +6,40 @@
 
 using namespace std;
 
-class Chef:public Employee {
-    string bests_dish;
-    
+class Chef:public Employee 
+{
 public:
-    Chef():Employee()
+    Chef(string expertise);
+
+
+    
+    string getExpertise() const
     {
-        
+        return this->expertise;
     }
-    string getBestDish();
+    
+    void setExpertise(string expertise)
+    {
+        this->expertise=expertise;
+    }
+    
+    int calculate_month_income(int income_for_month)
+    {
+        return this->salary+(income_for_month*.2);
+    }    
+    
+private:
+    string expertise;
+    
+
 };
+
+Chef::Chef(string expertise):Employee()
+{
+    this->expertise=expertise;
+    this->salary=10000;
+    this->_class='C';
+}
+
 
 #endif

@@ -1,10 +1,5 @@
-//
-//  Employee.h
-//  Lab5_Employee
-//
-//  Created by Alex Egg on 3/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+
+
 
 #ifndef Lab5_Employee_Employee_h
 #define Lab5_Employee_Employee_h
@@ -12,13 +7,19 @@
 using namespace std;
 
 class Employee {
-    string name;
-    int id;
-    char _class;
-    int salary;
+
     
 public:
-    Employee();
+    Employee()
+    {
+
+    }
+    
+    Employee(char type)
+    {
+        this->_class=type;
+    }
+    
     Employee(string name, int id, char _class, int salary)
     {
         this->name=name;
@@ -31,6 +32,26 @@ public:
     {
         return salary;
     }
+    
+    void setSalary(int salary)
+    {
+        this->salary=salary;
+    }
+    
+    virtual int calculate_month_income(int income_for_month)
+    {
+        return this->salary+(income_for_month*.6);
+    }
+    
+    
+protected:
+    int salary;
+    char _class;
+private:
+	string name;
+    int id;
+    
+
 };
 
 
