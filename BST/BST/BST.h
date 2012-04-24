@@ -21,12 +21,18 @@ public:
     bool add(int value);
     void insert(int value, TreeNode * root, TreeNode * parent, bool was_left);
     bool ddelete(int value);
-
     TreeNode search(int value);
     bool contains(int value);
-     TreeNode * find_from_root(int value);
-    void print(TreeNode * node);
-        void print();
+    TreeNode * find_from_root(int value);
+    int size();
+    void in_order_print(TreeNode * node);
+    void in_order_print();
+    void pre_order_print(TreeNode * n);
+    void pre_order_print();
+    void post_order_print(TreeNode * n);
+    void post_order_print();
+
+   
     
     
 private: 

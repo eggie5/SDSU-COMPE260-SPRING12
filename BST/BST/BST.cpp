@@ -62,6 +62,18 @@ bool BST::ddelete(int value)
     
 }
 
+bool BST::contains(int value)
+{
+    TreeNode * n = find_from_root(value);
+    if(n==NULL)
+    {
+        return false;
+    }
+    else 
+        return true;
+    
+}
+
 TreeNode * BST::find_from_root(int value) {
     return find(value, root);
     
@@ -124,17 +136,56 @@ TreeNode BST::search(int value)
 }
 
 //example how to traverse tree
-void  BST::print(TreeNode * n) {
+void  BST::in_order_print(TreeNode * n) {
     if (n == NULL) {
         return;
 
     }
-    print(n->Lchild);
+    in_order_print(n->Lchild);
     cout << n->item <<endl;
-    print(n->Rchild);
+    in_order_print(n->Rchild);
 }
 
-void  BST::print() {
-    print(root);
+void  BST::in_order_print() {
+    in_order_print(root);
+}
+
+void BST::pre_order_print()
+{
+    pre_order_print(root);
+}
+
+void BST::pre_order_print(TreeNode * n)
+{
+    if (n == NULL) {
+        return;
+        
+    }
+    cout << n->item <<endl;
+    pre_order_print(n->Lchild);
+    pre_order_print(n->Rchild);
+}
+
+void BST::post_order_print()
+{
+    post_order_print(root);
+}
+
+void BST::post_order_print(TreeNode *n)
+{
+    if (n == NULL) {
+        return;
+        
+    }
+   
+    post_order_print(n->Lchild);
+    post_order_print(n->Rchild);
+    
+     cout << n->item <<endl;
+}
+
+int BST::size()
+{
+    return current_size;
 }
 

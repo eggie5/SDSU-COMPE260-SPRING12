@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  BST
-//
-//  Created by Alex Egg on 4/23/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #include <iostream>
 #include "BST.h"
@@ -22,9 +15,13 @@ int main(int argc, const char * argv[])
     tree->add(3);
     tree->add(44);
     
-    tree->ddelete(44);
-
     
-    tree->print();
+    
+    
+    tree->in_order_print();
+    cout <<endl;
+    tree->pre_order_print();
+    cout <<endl;
+    tree->post_order_print();
 }
 
