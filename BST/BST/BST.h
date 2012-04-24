@@ -20,15 +20,23 @@ public:
     BST();
     bool add(int value);
     void insert(int value, TreeNode * root, TreeNode * parent, bool was_left);
-    void remove();
+    bool ddelete(int value);
+
     TreeNode search(int value);
+    bool contains(int value);
+     TreeNode * find_from_root(int value);
+    void print(TreeNode * node);
+        void print();
     
     
 private: 
     TreeNode * root;
-    
+    TreeNode * find(int value, TreeNode * n);
+    void inOrderFillArray(TreeNode * tn);
     int current_size;
     int mod_counter;
+    TreeNode * remove(TreeNode * node_to_delete, TreeNode * start_node);
+    TreeNode *  findMin( TreeNode * t );
     
 };
 

@@ -18,6 +18,13 @@ int main(int argc, const char * argv[])
     tree->add(5);
     tree->add(1);
     tree->add(8);
-    cout << "Hi"<<endl;
+    tree->add(2);
+    tree->add(3);
+    tree->add(44);
+    
+    tree->ddelete(44);
+
+    
+    tree->print();
 }
 
