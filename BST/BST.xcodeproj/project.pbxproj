@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC4099C815467BE1008FAA3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4099C715467BE1008FAA3E /* main.cpp */; };
 		AC4099CA15467BE1008FAA3E /* BST.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC4099C915467BE1008FAA3E /* BST.1 */; };
+		AC4099D815467C2F008FAA3E /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4099D715467C2F008FAA3E /* BST.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		AC4099C315467BE1008FAA3E /* BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BST; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4099C715467BE1008FAA3E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC4099C915467BE1008FAA3E /* BST.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BST.1; sourceTree = "<group>"; };
+		AC4099D415467C1C008FAA3E /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		AC4099D615467C25008FAA3E /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		AC4099D715467C2F008FAA3E /* BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 			children = (
 				AC4099C715467BE1008FAA3E /* main.cpp */,
 				AC4099C915467BE1008FAA3E /* BST.1 */,
+				AC4099D415467C1C008FAA3E /* TreeNode.h */,
+				AC4099D615467C25008FAA3E /* BST.h */,
+				AC4099D715467C2F008FAA3E /* BST.cpp */,
 			);
 			path = BST;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4099C815467BE1008FAA3E /* main.cpp in Sources */,
+				AC4099D815467C2F008FAA3E /* BST.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +209,7 @@
 				AC4099CF15467BE1008FAA3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
