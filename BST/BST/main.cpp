@@ -7,14 +7,17 @@
 //
 
 #include <iostream>
+#include "BST.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    BST * tree=new BST();
+    tree->add(5);
+    tree->add(1);
+    tree->add(8);
+    cout << "Hi"<<endl;
 }
 
